@@ -1,24 +1,24 @@
 <script setup lang="ts">
-// Mokalu - Awwwards Style Landing Page
+// Rigel S.A. - Portafolio Comercial y Verificación
 </script>
 
 <template>
   <div class="smooth-scroll-wrapper">
     <!-- HERO SECTION -->
     <section class="hero">
-      <div class="hero-bg" style="background-image: url('/images/hero.png');"></div>
+      <div class="hero-bg" style="background-image: url('/images/hero-rigel.jpg');"></div>
       <div class="hero-overlay"></div>
-      
+
       <nav class="nav">
-        <div class="logo">MOKALÚ.</div>
+        <div class="logo">RIGEL.</div>
         <a href="#contacto" class="btn-contact">Hablemos</a>
       </nav>
 
       <div class="hero-content">
         <div class="reveal-text">
-          <h1 class="display-title">TIENDA <br/> DE ARTE</h1>
+          <h1 class="display-title">SOLUCIONES <br/> INDUSTRIALES & TI</h1>
         </div>
-        <p class="hero-subtitle">Materiales premium y piezas personalizadas <br/> para mentes creativas.</p>
+        <p class="hero-subtitle">Maquinaria, tecnología y consultoría especializada <br/> para impulsar tu negocio.</p>
       </div>
 
       <div class="scroll-indicator">
@@ -30,34 +30,34 @@
     <!-- MARQUEE -->
     <div class="marquee-container">
       <div class="marquee">
-        <span>CREATIVIDAD SIN LÍMITES &mdash; ARTE PERSONALIZADO &mdash; MATERIALES PREMIUM &mdash; INSPIRACIÓN DIARIA &mdash; </span>
-        <span>CREATIVIDAD SIN LÍMITES &mdash; ARTE PERSONALIZADO &mdash; MATERIALES PREMIUM &mdash; INSPIRACIÓN DIARIA &mdash; </span>
+        <span>MAQUINARIA INDUSTRIAL &mdash; EQUIPO INFORMÁTICO &mdash; CONSULTORÍA TI &mdash; GESTIÓN DE SISTEMAS &mdash; </span>
+        <span>MAQUINARIA INDUSTRIAL &mdash; EQUIPO INFORMÁTICO &mdash; CONSULTORÍA TI &mdash; GESTIÓN DE SISTEMAS &mdash; </span>
       </div>
     </div>
 
     <!-- PORTFOLIO / GALLERY -->
     <section class="gallery">
       <div class="gallery-header">
-        <h2 class="section-title">NUESTRA <br/> ESENCIA</h2>
-        <p class="section-desc">Desde los lienzos más finos hasta zapatillas intervenidas. En Mokalú respiramos arte en cada detalle.</p>
+        <h2 class="section-title">NUESTRA <br/> ESPECIALIDAD</h2>
+        <p class="section-desc">Desde intermediación de maquinaria industrial hasta consultoría en sistemas informáticos. En RIGEL conectamos tecnología con resultados.</p>
       </div>
 
       <div class="gallery-grid">
         <div class="gallery-item large">
           <div class="image-wrapper">
-            <img src="/images/sneakers.png" alt="Zapatillas Personalizadas" />
+            <img src="/images/maquinaria.jpg" alt="Maquinaria Industrial" />
             <div class="item-overlay">
-              <h3>Arte Único</h3>
-              <p>Zapatillas Personalizadas</p>
+              <h3>Intermediación</h3>
+              <p>Maquinaria y Equipo Industrial</p>
             </div>
           </div>
         </div>
         <div class="gallery-item">
           <div class="image-wrapper">
-            <img src="/images/supplies.png" alt="Materiales de Arte" />
+            <img src="/images/tecnologia.jpg" alt="Consultoría TI" />
             <div class="item-overlay">
-              <h3>Herramientas</h3>
-              <p>Papelería Premium</p>
+              <h3>Consultoría</h3>
+              <p>Computadoras y Sistemas TI</p>
             </div>
           </div>
         </div>
@@ -69,14 +69,12 @@
       <div class="footer-grid">
         <!-- Branding / Contact -->
         <div class="footer-col brand-col">
-          <h2 class="footer-logo">MOKALÚ.</h2>
-          <p class="contact-email"><a href="mailto:mokaluventas@gmail.com">mokaluventas@gmail.com</a></p>
-          <p class="contact-email"><a href="mailto:lamg5208@gmail.com">lamg5208@gmail.com</a></p>
+          <h2 class="footer-logo">RIGEL.</h2>
+          <p class="contact-email"><a href="mailto:rigelecuadorsa@gmail.com">rigelecuadorsa@gmail.com</a></p>
           <div class="phones">
-            <a href="tel:0967472310">0967472310</a> &mdash; 
-            <a href="tel:0983849378">0983849378</a>
+            <a href="tel:0995954964">0995954964</a>
           </div>
-          <p class="copyright">&copy; {{ new Date().getFullYear() }} MOKALU S.A.S. All rights reserved.</p>
+          <p class="copyright">&copy; {{ new Date().getFullYear() }} RIGEL S.A. All rights reserved.</p>
         </div>
 
         <!-- SRI Legal Data -->
@@ -85,31 +83,31 @@
           <div class="data-grid">
             <div class="data-item">
               <span class="label">Razón Social</span>
-              <span class="value">MOKALU S.A.S.</span>
+              <span class="value">RIGEL S.A.</span>
             </div>
             <div class="data-item">
               <span class="label">RUC</span>
-              <span class="value">0993285811001</span>
+              <span class="value">0993385173001</span>
             </div>
             <div class="data-item">
               <span class="label">Representante</span>
-              <span class="value">Oyola Galarza Monica Alexandra</span>
+              <span class="value">Hurtado Alvarez Juan Gabriel</span>
             </div>
             <div class="data-item">
               <span class="label">Estado / Régimen</span>
-              <span class="value">Activo / RIMPE Emprendedor</span>
+              <span class="value">Activo / General</span>
             </div>
             <div class="data-item">
               <span class="label">Actividades</span>
-              <span class="value">Venta al por mayor y menor de artículos de papelería especializada.</span>
+              <span class="value">Intermediación de maquinaria industrial, venta de computadoras y consultoría en sistemas informáticos.</span>
             </div>
             <div class="data-item">
               <span class="label">Fechas SRI</span>
-              <span class="value">Constitución: 20/10/2020 | Inicio: 23/10/2020</span>
+              <span class="value">Constitución: 04/09/2023 | Inicio: 12/09/2023</span>
             </div>
             <div class="data-item">
               <span class="label">Verificación SRI</span>
-              <span class="value">CATRCR2022002933710</span>
+              <span class="value">RCR1787064540973837</span>
             </div>
           </div>
         </div>
@@ -118,18 +116,19 @@
         <div class="footer-col address-col">
           <h4>Ubicación</h4>
           <p>
-            Vía a la Costa Km 12.5,<br>
-            C.C. Laguna Plaza, Local 317<br>
-            (Primer piso alto junto al ascensor)<br>
+            Calle Elizalde 0119 y Malecón,<br>
+            Edificio Luz María, Oficina B<br>
+            (Diagonal al Banco Internacional)<br>
             Guayaquil, Guayas, Zona 8<br>
             Ecuador
           </p>
-          
+
           <div class="tax-tags">
             <span class="tax-tag">IVA</span>
             <span class="tax-tag">Renta Sociedades</span>
             <span class="tax-tag">ATS</span>
             <span class="tax-tag">ADI</span>
+            <span class="tax-tag">REBEFICS</span>
           </div>
         </div>
       </div>
